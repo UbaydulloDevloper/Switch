@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/mic"
+            android:title="Menu"
+            android:icon="@drawable/menu"
+            app:showAsAction="always"/>
+    <item
+            android:id="@+id/golos"
+            android:title="Golos"
+            android:icon="@drawable/mic"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/gps"
+            android:title="GPS"
+            android:icon="@drawable/gps_2"
+            app:showAsAction="never"/>
+    <item
+            android:id="@+id/add"
+            android:title="Add"
+            android:icon="@drawable/add"
+            app:showAsAction="never"/>
+
+</menu>
